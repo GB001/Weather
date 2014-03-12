@@ -1,0 +1,146 @@
+body
+{
+	margin:0;
+	position:absolute;
+	width:100%;
+	height:100%;
+ 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+#map
+{
+	width:100%; 
+	height:100%;
+	margin-top:77px;
+}
+
+.title_city{
+	font-size: 24pt;
+	padding:20px;
+	width:100%;
+	position:fixed;
+	background:white;
+	z-index:9999999;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+.title_city img
+{
+
+	height:50px;
+	vertical-align:middle;
+	float:right;
+	margin-right:50px;
+
+}
+
+#bowlG{
+display:none;
+float:right;
+margin-right:50px;
+position:relative;
+width:50px;
+height:50px;
+}
+
+#bowl_ringG{
+position:absolute;
+width:50px;
+height:50px;
+border:4px solid #000000;
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+-ms-border-radius:50px;
+-o-border-radius:50px;
+border-radius:50px;
+}
+
+.ball_holderG{
+position:absolute;
+width:13px;
+height:50px;
+left:18px;
+top:0px;
+-moz-animation-name:ball_moveG;
+-moz-animation-duration:1.3s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-timing-function:linear;
+-webkit-animation-name:ball_moveG;
+-webkit-animation-duration:1.3s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-timing-function:linear;
+-ms-animation-name:ball_moveG;
+-ms-animation-duration:1.3s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-timing-function:linear;
+-o-animation-name:ball_moveG;
+-o-animation-duration:1.3s;
+-o-animation-iteration-count:infinite;
+-o-animation-timing-function:linear;
+animation-name:ball_moveG;
+animation-duration:1.3s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+}
+
+.ballG{
+position:absolute;
+left:0px;
+top:-12px;
+width:20px;
+height:20px;
+background:#FFFFFF;
+-moz-border-radius:17px;
+-webkit-border-radius:17px;
+-ms-border-radius:17px;
+-o-border-radius:17px;
+border-radius:17px;
+}
+
+@-moz-keyframes ball_moveG{
+0%{
+-moz-transform:rotate(0deg)}
+
+100%{
+-moz-transform:rotate(360deg)}
+
+}
+
+@-webkit-keyframes ball_moveG{
+0%{
+-webkit-transform:rotate(0deg)}
+
+100%{
+-webkit-transform:rotate(360deg)}
+
+}
+
+@-ms-keyframes ball_moveG{
+0%{
+-ms-transform:rotate(0deg)}
+
+100%{
+-ms-transform:rotate(360deg)}
+
+}
+
+@-o-keyframes ball_moveG{
+0%{
+-o-transform:rotate(0deg)}
+
+100%{
+-o-transform:rotate(360deg)}
+
+}
+
+@keyframes ball_moveG{
+0%{
+transform:rotate(0deg)}
+
+100%{
+transform:rotate(360deg)}
+
+}

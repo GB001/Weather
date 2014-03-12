@@ -1,0 +1,20 @@
+{
+  "name": "weather",
+  "subdomain": "weathertest",
+  "scripts": {
+    "start": "weather.js"
+  },
+  "version": "0.0.1-3",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "*",
+    "async": "*",
+    "request": "*",
+    "cheerio": "*",
+    "node-schedule": "*",
+    "cron": "*",
+    "ejs": "*"
+  }
+}

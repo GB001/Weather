@@ -1,0 +1,19 @@
+body
+{
+	margin:0;
+	position:absolute;
+	width: 100%;
+	height:100%
+}
+
+#map
+{
+	width: 100%; 
+	height:100%
+}
+
+.title_city{
+
+	height:20%;
+
+}
